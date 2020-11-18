@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  font-size: 22px;
+}
+.container {
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 2%;
+  border: 2px solid #2e2e2e;
+  width: 10rem;
+}
+.screen {
+  width: 190px;
+  height: 35px;
+  margin-left: 5px;
+  margin-top: 5px;
+  background: #ccc;
+  border: 2px solid #2e2e2e;
+}
+.buttons {
+  margin-left: 25px;
+}
+button {
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 2px solid #2e2e2e;
+  background: none;
+  outline: none;
+  font-weight: bold;
+}
+button:hover {
+  background: #2e2e2e;
+  color: #fff;
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+/*Center numbers and operators*/
+#n0-button {
+  width: 95px;
+}
+#plus-button {
+  position: absolute;
+  right: 0;
+  margin-right: 45px;
+  top: 50px;
+  height: 150px;
+}
+#minus-button {
+  position: absolute;
+  margin-right: 45px;
+  margin-left: 155px;
+  top: 50px;
+}
+#multiply-button {
+  position: absolute;
+  margin-right: 45px;
+  margin-left: 150px;
+  top: 100px;
+}
+#divide-button {
+  position: absolute;
+  margin-right: 45px;
+  margin-left: 150px;
+  top: 150px;
+}
+#equal-button {
+  margin-left: 70px;
+  margin-bottom: 15px;
+  width: 100px;
+}

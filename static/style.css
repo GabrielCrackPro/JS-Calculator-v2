@@ -69,7 +69,13 @@ button:hover {
   top: 150px;
 }
 #equal-button {
-  margin-left: 70px;
+  margin-left: 100px;
   margin-bottom: 15px;
   width: 100px;
+}
+#clear-button {
+  position: absolute;
+  top: 245px;
+  left: 15px;
+  width: 70px;
 }
